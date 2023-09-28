@@ -13,7 +13,7 @@ spec:
       - name: severalLines
         label: And a dynamic collection of those
         description: Add and remove as many lines as you please
-        dataType: [text]
+        dataType: [string]
         defaultValue: []
       - name: message
         inputType: text
