@@ -1,0 +1,21 @@
+apiVersion: entity.accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: test
+  tags:
+    - tanzu
+  title: Test
+  description: Test Acelerator
+spec:
+  accelerator:
+    # options for the UI
+    options:
+      - name: severalLines
+        label: And a dynamic collection of those
+        description: Add and remove as many lines as you please
+        dataType: [text]
+        defaultValue: []
+      - name: message
+        inputType: text
+        label: The message the app should display
+        defaultValue: Hello
